@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B63EFA3214D1BF8B00C83703 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63EFA3114D1BF8B00C83703 /* Cocoa.framework */; };
+		B63EFA3C14D1BF8B00C83703 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B63EFA3A14D1BF8B00C83703 /* InfoPlist.strings */; };
+		B63EFA3E14D1BF8B00C83703 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B63EFA3D14D1BF8B00C83703 /* main.m */; };
+		B63EFA4214D1BF8B00C83703 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B63EFA4014D1BF8B00C83703 /* Credits.rtf */; };
+		B63EFA4514D1BF8B00C83703 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B63EFA4414D1BF8B00C83703 /* AppDelegate.m */; };
+		B63EFA4814D1BF8B00C83703 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B63EFA4614D1BF8B00C83703 /* MainMenu.xib */; };
+		B63EFA5C14D1BFA600C83703 /* DDHotKeyCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = B63EFA5014D1BFA600C83703 /* DDHotKeyCenter.m */; };
+		B63EFA5D14D1BFA600C83703 /* SRCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = B63EFA5314D1BFA600C83703 /* SRCommon.m */; };
+		B63EFA5E14D1BFA600C83703 /* SRKeyCodeTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = B63EFA5514D1BFA600C83703 /* SRKeyCodeTransformer.m */; };
+		B63EFA5F14D1BFA600C83703 /* SRRecorderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B63EFA5714D1BFA600C83703 /* SRRecorderCell.m */; };
+		B63EFA6014D1BFA600C83703 /* SRRecorderControl.m in Sources */ = {isa = PBXBuildFile; fileRef = B63EFA5914D1BFA600C83703 /* SRRecorderControl.m */; };
+		B63EFA6114D1BFA600C83703 /* SRValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = B63EFA5B14D1BFA600C83703 /* SRValidator.m */; };
+		B63EFA6314D1BFAC00C83703 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63EFA6214D1BFAC00C83703 /* Carbon.framework */; };
+		B63EFA6614D1BFC700C83703 /* KeyAssignment.m in Sources */ = {isa = PBXBuildFile; fileRef = B63EFA6514D1BFC700C83703 /* KeyAssignment.m */; };
+		B6747DE314D27E590030F5E9 /* Matatino.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6747DE214D27E590030F5E9 /* Matatino.framework */; };
+		B6747DE414D27E880030F5E9 /* Matatino.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B6747DE214D27E590030F5E9 /* Matatino.framework */; };
+		B6747DEB14D305D10030F5E9 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = B6747DE914D305D10030F5E9 /* Icon.icns */; };
+		B6747DED14D30BCF0030F5E9 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = B6747DEC14D30BCE0030F5E9 /* Icon.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B63EFA6914D1C0F400C83703 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B6747DE414D27E880030F5E9 /* Matatino.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B63EFA2D14D1BF8B00C83703 /* Hotkeys For Arduino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hotkeys For Arduino.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B63EFA3114D1BF8B00C83703 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B63EFA3414D1BF8B00C83703 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B63EFA3514D1BF8B00C83703 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B63EFA3614D1BF8B00C83703 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B63EFA3914D1BF8B00C83703 /* HotkeysForArduino-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HotkeysForArduino-Info.plist"; sourceTree = "<group>"; };
+		B63EFA3B14D1BF8B00C83703 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B63EFA3D14D1BF8B00C83703 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B63EFA3F14D1BF8B00C83703 /* HotkeysForArduino-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HotkeysForArduino-Prefix.pch"; sourceTree = "<group>"; };
+		B63EFA4114D1BF8B00C83703 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		B63EFA4314D1BF8B00C83703 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B63EFA4414D1BF8B00C83703 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B63EFA4714D1BF8B00C83703 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B63EFA4F14D1BFA600C83703 /* DDHotKeyCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHotKeyCenter.h; sourceTree = "<group>"; };
+		B63EFA5014D1BFA600C83703 /* DDHotKeyCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHotKeyCenter.m; sourceTree = "<group>"; };
+		B63EFA5214D1BFA600C83703 /* SRCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRCommon.h; sourceTree = "<group>"; };
+		B63EFA5314D1BFA600C83703 /* SRCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRCommon.m; sourceTree = "<group>"; };
+		B63EFA5414D1BFA600C83703 /* SRKeyCodeTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRKeyCodeTransformer.h; sourceTree = "<group>"; };
+		B63EFA5514D1BFA600C83703 /* SRKeyCodeTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRKeyCodeTransformer.m; sourceTree = "<group>"; };
+		B63EFA5614D1BFA600C83703 /* SRRecorderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRRecorderCell.h; sourceTree = "<group>"; };
+		B63EFA5714D1BFA600C83703 /* SRRecorderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRRecorderCell.m; sourceTree = "<group>"; };
+		B63EFA5814D1BFA600C83703 /* SRRecorderControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRRecorderControl.h; sourceTree = "<group>"; };
+		B63EFA5914D1BFA600C83703 /* SRRecorderControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRRecorderControl.m; sourceTree = "<group>"; };
+		B63EFA5A14D1BFA600C83703 /* SRValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRValidator.h; sourceTree = "<group>"; };
+		B63EFA5B14D1BFA600C83703 /* SRValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRValidator.m; sourceTree = "<group>"; };
+		B63EFA6214D1BFAC00C83703 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		B63EFA6414D1BFC700C83703 /* KeyAssignment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyAssignment.h; sourceTree = "<group>"; };
+		B63EFA6514D1BFC700C83703 /* KeyAssignment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyAssignment.m; sourceTree = "<group>"; };
+		B6747DE214D27E590030F5E9 /* Matatino.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Matatino.framework; path = Frameworks/Matatino.framework; sourceTree = "<group>"; };
+		B6747DEA14D305D10030F5E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = en; path = en.lproj/Icon.icns; sourceTree = "<group>"; };
+		B6747DEC14D30BCE0030F5E9 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B63EFA2A14D1BF8B00C83703 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B63EFA6314D1BFAC00C83703 /* Carbon.framework in Frameworks */,
+				B63EFA3214D1BF8B00C83703 /* Cocoa.framework in Frameworks */,
+				B6747DE314D27E590030F5E9 /* Matatino.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B63EFA2214D1BF8A00C83703 = {
+			isa = PBXGroup;
+			children = (
+				B6747DEC14D30BCE0030F5E9 /* Icon.icns */,
+				B63EFA4E14D1BFA600C83703 /* DDHotKey */,
+				B63EFA5114D1BFA600C83703 /* ShortcutRecorder */,
+				B63EFA3714D1BF8B00C83703 /* HotkeysForArduino */,
+				B63EFA3014D1BF8B00C83703 /* Frameworks */,
+				B63EFA2E14D1BF8B00C83703 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B63EFA2E14D1BF8B00C83703 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B63EFA2D14D1BF8B00C83703 /* Hotkeys For Arduino.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B63EFA3014D1BF8B00C83703 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B63EFA6214D1BFAC00C83703 /* Carbon.framework */,
+				B6747DE214D27E590030F5E9 /* Matatino.framework */,
+				B63EFA3114D1BF8B00C83703 /* Cocoa.framework */,
+				B63EFA3314D1BF8B00C83703 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B63EFA3314D1BF8B00C83703 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B63EFA3414D1BF8B00C83703 /* AppKit.framework */,
+				B63EFA3514D1BF8B00C83703 /* CoreData.framework */,
+				B63EFA3614D1BF8B00C83703 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B63EFA3714D1BF8B00C83703 /* HotkeysForArduino */ = {
+			isa = PBXGroup;
+			children = (
+				B63EFA4314D1BF8B00C83703 /* AppDelegate.h */,
+				B63EFA4414D1BF8B00C83703 /* AppDelegate.m */,
+				B63EFA6414D1BFC700C83703 /* KeyAssignment.h */,
+				B63EFA6514D1BFC700C83703 /* KeyAssignment.m */,
+				B63EFA4614D1BF8B00C83703 /* MainMenu.xib */,
+				B63EFA3814D1BF8B00C83703 /* Supporting Files */,
+			);
+			path = HotkeysForArduino;
+			sourceTree = "<group>";
+		};
+		B63EFA3814D1BF8B00C83703 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6747DE914D305D10030F5E9 /* Icon.icns */,
+				B63EFA3914D1BF8B00C83703 /* HotkeysForArduino-Info.plist */,
+				B63EFA3A14D1BF8B00C83703 /* InfoPlist.strings */,
+				B63EFA3D14D1BF8B00C83703 /* main.m */,
+				B63EFA3F14D1BF8B00C83703 /* HotkeysForArduino-Prefix.pch */,
+				B63EFA4014D1BF8B00C83703 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B63EFA4E14D1BFA600C83703 /* DDHotKey */ = {
+			isa = PBXGroup;
+			children = (
+				B63EFA4F14D1BFA600C83703 /* DDHotKeyCenter.h */,
+				B63EFA5014D1BFA600C83703 /* DDHotKeyCenter.m */,
+			);
+			path = DDHotKey;
+			sourceTree = "<group>";
+		};
+		B63EFA5114D1BFA600C83703 /* ShortcutRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				B63EFA5214D1BFA600C83703 /* SRCommon.h */,
+				B63EFA5314D1BFA600C83703 /* SRCommon.m */,
+				B63EFA5414D1BFA600C83703 /* SRKeyCodeTransformer.h */,
+				B63EFA5514D1BFA600C83703 /* SRKeyCodeTransformer.m */,
+				B63EFA5614D1BFA600C83703 /* SRRecorderCell.h */,
+				B63EFA5714D1BFA600C83703 /* SRRecorderCell.m */,
+				B63EFA5814D1BFA600C83703 /* SRRecorderControl.h */,
+				B63EFA5914D1BFA600C83703 /* SRRecorderControl.m */,
+				B63EFA5A14D1BFA600C83703 /* SRValidator.h */,
+				B63EFA5B14D1BFA600C83703 /* SRValidator.m */,
+			);
+			path = ShortcutRecorder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B63EFA2C14D1BF8B00C83703 /* HotkeysForArduino */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B63EFA4B14D1BF8B00C83703 /* Build configuration list for PBXNativeTarget "HotkeysForArduino" */;
+			buildPhases = (
+				B63EFA2914D1BF8B00C83703 /* Sources */,
+				B63EFA2A14D1BF8B00C83703 /* Frameworks */,
+				B63EFA2B14D1BF8B00C83703 /* Resources */,
+				B63EFA6914D1C0F400C83703 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HotkeysForArduino;
+			productName = HotkeysForArduino;
+			productReference = B63EFA2D14D1BF8B00C83703 /* Hotkeys For Arduino.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B63EFA2414D1BF8A00C83703 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = robotgrrl.com;
+			};
+			buildConfigurationList = B63EFA2714D1BF8A00C83703 /* Build configuration list for PBXProject "HotkeysForArduino" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B63EFA2214D1BF8A00C83703;
+			productRefGroup = B63EFA2E14D1BF8B00C83703 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B63EFA2C14D1BF8B00C83703 /* HotkeysForArduino */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B63EFA2B14D1BF8B00C83703 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B63EFA3C14D1BF8B00C83703 /* InfoPlist.strings in Resources */,
+				B63EFA4214D1BF8B00C83703 /* Credits.rtf in Resources */,
+				B63EFA4814D1BF8B00C83703 /* MainMenu.xib in Resources */,
+				B6747DEB14D305D10030F5E9 /* Icon.icns in Resources */,
+				B6747DED14D30BCF0030F5E9 /* Icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B63EFA2914D1BF8B00C83703 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B63EFA3E14D1BF8B00C83703 /* main.m in Sources */,
+				B63EFA4514D1BF8B00C83703 /* AppDelegate.m in Sources */,
+				B63EFA5C14D1BFA600C83703 /* DDHotKeyCenter.m in Sources */,
+				B63EFA5D14D1BFA600C83703 /* SRCommon.m in Sources */,
+				B63EFA5E14D1BFA600C83703 /* SRKeyCodeTransformer.m in Sources */,
+				B63EFA5F14D1BFA600C83703 /* SRRecorderCell.m in Sources */,
+				B63EFA6014D1BFA600C83703 /* SRRecorderControl.m in Sources */,
+				B63EFA6114D1BFA600C83703 /* SRValidator.m in Sources */,
+				B63EFA6614D1BFC700C83703 /* KeyAssignment.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B63EFA3A14D1BF8B00C83703 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B63EFA3B14D1BF8B00C83703 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B63EFA4014D1BF8B00C83703 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B63EFA4114D1BF8B00C83703 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		B63EFA4614D1BF8B00C83703 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B63EFA4714D1BF8B00C83703 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		B6747DE914D305D10030F5E9 /* Icon.icns */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6747DEA14D305D10030F5E9 /* en */,
+			);
+			name = Icon.icns;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B63EFA4914D1BF8B00C83703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B63EFA4A14D1BF8B00C83703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B63EFA4C14D1BF8B00C83703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_IDENTITY = "Mac Developer: Erin Kennedy (DFW4HJR9Q7)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HotkeysForArduino/HotkeysForArduino-Prefix.pch";
+				INFOPLIST_FILE = "HotkeysForArduino/HotkeysForArduino-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "Hotkeys For Arduino";
+				PROVISIONING_PROFILE = "E264DC7B-BE4B-4965-880F-4D6E496129C3";
+				SDKROOT = macosx10.6;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B63EFA4D14D1BF8B00C83703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: CVL Wireless";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HotkeysForArduino/HotkeysForArduino-Prefix.pch";
+				INFOPLIST_FILE = "HotkeysForArduino/HotkeysForArduino-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "Hotkeys For Arduino";
+				PROVISIONING_PROFILE = "C009970B-F03F-47AD-A0A9-8CEA8FDA1E68";
+				SDKROOT = macosx10.6;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B63EFA2714D1BF8A00C83703 /* Build configuration list for PBXProject "HotkeysForArduino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B63EFA4914D1BF8B00C83703 /* Debug */,
+				B63EFA4A14D1BF8B00C83703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B63EFA4B14D1BF8B00C83703 /* Build configuration list for PBXNativeTarget "HotkeysForArduino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B63EFA4C14D1BF8B00C83703 /* Debug */,
+				B63EFA4D14D1BF8B00C83703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B63EFA2414D1BF8A00C83703 /* Project object */;
+}
