@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B60449C414D9C744003C3A79 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B60449C314D9C744003C3A79 /* Sparkle.framework */; };
+		B60449C614D9C869003C3A79 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B60449C314D9C744003C3A79 /* Sparkle.framework */; };
+		B60449C814D9C9D4003C3A79 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = B60449C714D9C9D4003C3A79 /* dsa_pub.pem */; };
 		B63EFA3214D1BF8B00C83703 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63EFA3114D1BF8B00C83703 /* Cocoa.framework */; };
 		B63EFA3C14D1BF8B00C83703 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B63EFA3A14D1BF8B00C83703 /* InfoPlist.strings */; };
 		B63EFA3E14D1BF8B00C83703 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B63EFA3D14D1BF8B00C83703 /* main.m */; };
@@ -35,12 +38,15 @@
 			dstSubfolderSpec = 10;
 			files = (
 				B6747DE414D27E880030F5E9 /* Matatino.framework in CopyFiles */,
+				B60449C614D9C869003C3A79 /* Sparkle.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B60449C314D9C744003C3A79 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = Frameworks/Sparkle.framework; sourceTree = "<group>"; };
+		B60449C714D9C9D4003C3A79 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = dsa_pub.pem; path = Resources/dsa_pub.pem; sourceTree = SOURCE_ROOT; };
 		B63EFA2D14D1BF8B00C83703 /* Hotkeys For Arduino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hotkeys For Arduino.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B63EFA3114D1BF8B00C83703 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		B63EFA3414D1BF8B00C83703 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -82,6 +88,7 @@
 				B63EFA6314D1BFAC00C83703 /* Carbon.framework in Frameworks */,
 				B63EFA3214D1BF8B00C83703 /* Cocoa.framework in Frameworks */,
 				B6747DE314D27E590030F5E9 /* Matatino.framework in Frameworks */,
+				B60449C414D9C744003C3A79 /* Sparkle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +118,7 @@
 		B63EFA3014D1BF8B00C83703 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B60449C314D9C744003C3A79 /* Sparkle.framework */,
 				B63EFA6214D1BFAC00C83703 /* Carbon.framework */,
 				B6747DE214D27E590030F5E9 /* Matatino.framework */,
 				B63EFA3114D1BF8B00C83703 /* Cocoa.framework */,
@@ -145,6 +153,7 @@
 		B63EFA3814D1BF8B00C83703 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B60449C714D9C9D4003C3A79 /* dsa_pub.pem */,
 				B6747DE914D305D10030F5E9 /* Icon.icns */,
 				B63EFA3914D1BF8B00C83703 /* HotkeysForArduino-Info.plist */,
 				B63EFA3A14D1BF8B00C83703 /* InfoPlist.strings */,
@@ -238,6 +247,7 @@
 				B63EFA4814D1BF8B00C83703 /* MainMenu.xib in Resources */,
 				B6747DEB14D305D10030F5E9 /* Icon.icns in Resources */,
 				B6747DED14D30BCF0030F5E9 /* Icon.icns in Resources */,
+				B60449C814D9C9D4003C3A79 /* dsa_pub.pem in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
